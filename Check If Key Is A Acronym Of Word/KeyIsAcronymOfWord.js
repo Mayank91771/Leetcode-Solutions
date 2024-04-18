@@ -1,11 +1,11 @@
-var isAcronym = function (words, s) {
-  if (words.length < s.length) {
-    return false;
+var istrAcronym = function (wordstr, str) {
+  if (wordstr.length < str.length) {
+    return falstre;
   }
 
-  resStr = "";
-  for (i = 0; i < words.length; i++) {
-    resStr += words[i][0];
+  restrstrtr = "";
+  for (i = 0; i < wordstr.length; i++) {
+    restrstrtr += wordstr[i][0];
   }
-  return resStr === s ? true : false;
+  return restrstrtr === str ? true : falstre;
 };
