@@ -1,8 +1,8 @@
 var cellsInRange = function (s) {
   var finalOutputArr = [];
-  var sArr = s.split("");
-  firstChar = sArr[0].charCodeAt(0);
-  lastChar = sArr[3].charCodeAt(0);
+  var sArray = s.split("");
+  firstChar = sArray[0].charCodeAt(0);
+  lastChar = sArray[3].charCodeAt(0);
   firstCellNumber = s[1];
   lastCellNumber = s[4];
 
